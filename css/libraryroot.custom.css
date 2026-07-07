@@ -4,7 +4,7 @@
  */
 @font-face {
     font-family: "Nightmare";
-    src: url("../fonts/Nightmare.ttf") format("truetype");
+    src: url("../font/Nightmare.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }/* Add font */
@@ -136,7 +136,13 @@
     color: rgb(228, 109, 210) !important;
 }
 
+/* ================================
+   Nightmare Global Steam Font
+   ================================ */
+
 body,
-.DesktopUI {
+body *,
+.DesktopUI,
+.DesktopUI * {
     font-family: "Nightmare", sans-serif !important;
 }
