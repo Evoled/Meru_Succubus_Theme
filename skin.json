@@ -1,17 +1,17 @@
 {
     "name": "Meru_The_Succubus",
-    "author": "BannanaJoe8ME",
+    "author": "Evoled",
     "description": "Meru! 👻✩⡱ ~ 💜",
 
     "discord_support": {
         "inviteCodeExcludingLink": ""
     },
     "github": {
-        "owner": "1739321142",
-        "repo_name": "MeruSuccubus-theme"
+        "owner": "Evoled",
+        "repo_name": "Meru_Succubus_theme"
     },
-    "header_image": "https://raw.githubusercontent.com/1739321142/MeruSuccubus-theme/refs/heads/main/imgs/header_image.jpg",
-    "splash_image": "https://raw.githubusercontent.com/1739321142/MeruSuccubus-theme/refs/heads/main/imgs/splash_image.png",
+    "header_image": "https://raw.githubusercontent.com/Evoled/Meru_Succubus_theme/refs/heads/main/imgs/header_image.jpg",
+    "splash_image": "https://raw.githubusercontent.com/Evoled/Meru_Succubus_theme/refs/heads/main/imgs/splash_image.png",
     "tags": [
         "Purple",
         "Light",
