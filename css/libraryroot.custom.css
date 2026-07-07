@@ -2,53 +2,54 @@
  * @description This file styles all main steam windows
  * [Steam, Settings, Properties, Popups, Dialogs, ...]
  */
- @font-face {
-    font-family: "wuxin";
-    src: url();
-    font-weight: 300;
-}/* 添加字体 */
+@font-face {
+    font-family: "Nightmare";
+    src: url("../fonts/Nightmare.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}/* Add font */
 
 ._3mz8wQ6Q44B8P7pzPP4Iyw{
-	background-image: url("../imgs/ShopBG.png");
+	background-image: url("../imgs/ShopBG.jpg");
 	background-position: center center;
 	background-size: cover;
-} /*整体背景，从body数第五层*/
+} /*Overall background, fifth layer from the body*/
 
 ._2TKEazUUS3TlniZfpc8OOe {
 	background: transparent !important;
-}/*库列表顶部第一层“首页”外框*/
+}/*The first layer of the "Home Page" frame at the top of the library list*/
 
 
 ._3Z7VQ1IMk4E3HsHvrkLNgo, ._2CmrnGY-Amtd83ScJkFvx2, .UkR3sY319PuaUNuUWks2K, ._3vCzSrrXZzZjVJFZNg9SGu {
 	background: rgba(0, 0, 0, 0.5) !important;
-}/*标题栏第一层，标题栏下方那一条（库第二层的第一个元素），商店网址栏，下栏第二层*/
+}/*The first layer of the title bar, the one below the title bar (the first element of the second layer of the library), the store URL bar, the second layer of the lower bar*/
 
 ._3pSPluBgf0NeR1kkCLWMhR{
 	background: rgba(0, 0, 0, 0.5) !important;
-}/*库列表顶部第三层第一类“首页”内框*/ 
+}/*The first category "Home Page" inner frame on the third level at the top of the library list*/ 
 
 .RGNMWtyj73_-WdhflrmuY {
 	background: transparent !important;
-}/*库、下载页背景*/
+}/*Library, download page background*/
 
 ._3x1HklzyDs4TEjACrRO2tB {
-    background: url(../imgs/listBG.png) no-repeat;
+    background: url(../imgs/listBG.gif) no-repeat;
     background-size: cover;
     background-position: center;
-}/*库游戏列表背景*/
+}/*Library game list background*/
 
 ._2gSXCB6PbOlMxslr8hm6dm{
-    background: url(../imgs/libraryBG.png) no-repeat;
+    background: url(../imgs/libraryBG.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-}/*库右侧背景*/ 
+}/*Library right background*/ 
 
 ._2Dd4T78PcCTUVgOtDGFY5j, ._2g5K_hJWc7jVo81zuejhk2 {
     background: url(../imgs/downloadBG.png) no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;
-}/*“下载”、“收藏”页共用背景*/
+}/*"Download" and "Collection" pages share background*/
 
 ._17uEBe5Ri8TMsnfELvs8-N {
 	background: transparent !important;
@@ -56,35 +57,35 @@
 
 ._3Sb2o_mQ30IDRh0C72QUUu{
 	background: transparent !important;
-}/*“新鲜事”栏下方陈列架背景*/ 
+}/*The background of the display shelf below the "What's New" column*/ 
 
 ._3lDczhulqraStjCitLYJ1K {
 	background: transparent !important;
-}/*“首页”、“收藏”共用背景*/
+}/*"Home" and "Favorites" shared background*/
 
 ._2sNr7PFYcJZWNkEMCDVVPR {
 	background: transparent !important;
-}/*全部游戏(库右侧第四层第二类)，beta*/
+}/*All games(The second category on the fourth floor on the right side of the library)，beta*/
 
 ._1bq4x9pa4-9RLY-dXWUZTp  {
 	background: transparent !important;
-}/*下载父容器（下载第七层）*/
+}/*Download the parent container (download layer 7)*/
 
 ._3Mbhnlk1Go2j8yCdjthzc7 {
 	background: transparent !important;
-}/*速度第二层第一类（速度左）*/
+}/*Speed ​​second level first category (speed left)*/
 
-._24D3LpyHe8-HbiQftVVsna/*速度第五层第三个元素（速度右）*/ {
+._24D3LpyHe8-HbiQftVVsna/*The third element of the fifth layer of speed (speed right)*/ {
 	background: transparent !important;
 }
 
-._1VNuYHM6BPBOJspC6zPf5r /*下载项第一类*/{
+._1VNuYHM6BPBOJspC6zPf5r /*Download item first category*/{
 	background: transparent !important;
 }
 
 ._2sYIghGVXJr6tsQVvcryy8 {
 	background: linear-gradient(to right, rgba(41, 47, 59, 0.2) 40%, rgba(62, 78, 105, 0) 100%) !important;
-}/*游戏分组标签第一类*/
+}/*Game grouping label first category*/
 
 ._7AlhCx3XGzBeIrQaCneUD._1gqEjB5QsKT_NftD1dEsdZ:not(._2cO0HdvLEGAdhosLekWsmo) ._19axKcqYRuaJ8vdYKYmtTQ {
     color: #d51aff;
@@ -92,7 +93,7 @@
     transition: text-shadow .15s ease-out;
     font-weight: 500;
     cursor: pointer;
-}/*文字*/
+}/*character*/
 ._7AlhCx3XGzBeIrQaCneUD._1gqEjB5QsKT_NftD1dEsdZ:not(._2cO0HdvLEGAdhosLekWsmo) ._19axKcqYRuaJ8vdYKYmtTQ::after {
     content: "";
     display: block;
@@ -101,21 +102,21 @@
     background: #ff1ae8;
     border-radius: 3px;
     animation: _2wrHkBHr-Qiwn2S5A_vFDw .1s;
-}/*下方小横杆*/
-/*顶栏“商店”栏选中效果*/
+}/*Small horizontal bar below*/
+/*The effect of selecting the "Store" column in the top bar*/
 
 ._2-O4ZG0KrnSrzISHBKctFQ._5YTBr7WwIfzVU_3nUtAph {
     color: #8a748a;
-    font-family: "wuxin";
-}/*未下载游戏字体*/ 
+    font-family: "Nightmare";
+}/*Game fonts not downloaded*/ 
 
 ._2-O4ZG0KrnSrzISHBKctFQ._2ws8DONH9fxQjPXEmRpujE {
     color: #e70be3;
-    font-family: "wuxin";
-}/*已下载游戏字体*/ 
+    font-family: "Nightmare";
+}/*Downloaded game fonts*/ 
 
 /*==================================================================================*/ 
-/*右侧背景小字*/ 
+/*Small text on the right background*/ 
 ._1Gu1U2_kcg3AWLrXQgX5S6 div.DVBcpUzJ0x6kaRMfug0OJ {
     font-size: 15px;
     font-weight: 300;
@@ -130,7 +131,12 @@
 }
 
 
-/*好友游戏时长字体*/
+/*Friends game duration font*/
 ._1GCZAht_W2I3Elndk5cU0- ._1xGH4bGLz6sI7erzB8VWff {
     color: rgb(228, 109, 210) !important;
+}
+
+body,
+.DesktopUI {
+    font-family: "Nightmare", sans-serif !important;
 }

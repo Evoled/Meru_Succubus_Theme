@@ -1,28 +1,28 @@
 /* settings$ */
 
 .ModalDialogPopup .DialogContentTransition>.DialogContent {
-	background-image: url("../imgs/settingBG.png");
+	background-image: url("../imgs/settingBG.jpg");
 	background-position: center center;
 	background-size: cover;
-}/* 右侧背景 */
+}/* Right background */
 
 ._2kbiwbjuXdmtPSK_YaZCMU {
     color: #fff;
     padding-inline-end: 10px;
-}/* “账户”页“好友代码”等字体*/
+}/* Fonts such as "Friend Code" on the "Account" page */
 
 ._3qIXY674NedSZNa-CXtNlt {
     color: #ffa9f2;
     font-weight: 400;
     font-size: 12px;
     line-height: 19px;
-} /* “账户”页“好友代码”后方数字等字体*/
+} /* Fonts such as numbers after the "Friend Code" on the "Account" page */
 
 button.TEWmsM70ZLEOxLAjDMpcv ._3Wb9yDmYPUJksCr7HmaT9H {
     font-size: 12px;
     line-height: 20px;
     color: #dbc1ff;
-} /* “账户”页“好友代码”后方数字等字体*/
+} /* Fonts such as numbers after the "Friend Code" on the "Account" page */
 
 button.TEWmsM70ZLEOxLAjDMpcv svg {
     height: 40px;
@@ -45,7 +45,7 @@ button.TEWmsM70ZLEOxLAjDMpcv svg {
 ._2rjVTGz8aLvqOdz5v2gq5C.DesktopUI, .DesktopUI ._2rjVTGz8aLvqOdz5v2gq5C {
     padding-inline-end: 14px;
     color: #d851ed;
-} /*“STEAM”设定字体*/
+} /*"STEAM" set font*/
 
 ._1W1to_azoBRG95oNAFpf9Q.DesktopUI, .DesktopUI ._1W1to_azoBRG95oNAFpf9Q {
     color: #ffffff;
@@ -82,26 +82,26 @@ button.TEWmsM70ZLEOxLAjDMpcv svg {
     margin-top: 0;
 }
 
-/*hover效果*/
+/*hover effect*/
 .DesktopUI ._1-vlriAtKYDViAEunue4VO:hover:not(._2DpXjzK3WWsOtUWUrcuOG7) {
   background: rgba(255, 255, 255, 0.191);
   color: #de73dd;
-}/* 设置页面左侧文字hover效果 */
+}/* Set the text hover effect on the left side of the page */
 .DesktopUI ._1-vlriAtKYDViAEunue4VO:hover:not(._2DpXjzK3WWsOtUWUrcuOG7) ._1rD8X96FdnksZLvRRlEiCR {
-  color: #de73dd; 
-}/* 设置页面左侧图标hover效果 */
+  color: #de73dd;
+}/* Set the hover effect of the icon on the left side of the page */
 
-/*选中效果*/
+/*Selected effect*/
 body:has(._1-vlriAtKYDViAEunue4VO) ._1-vlriAtKYDViAEunue4VO._2DpXjzK3WWsOtUWUrcuOG7 {
     color: #d851ed;
     background:;
     border-right: 4px solid #d851ed;
-}/* 设置页面左侧文字选中效果 */
+}/* Set the text selection effect on the left side of the page */
 body:has(._1-vlriAtKYDViAEunue4VO) ._1-vlriAtKYDViAEunue4VO._2DpXjzK3WWsOtUWUrcuOG7 ._1rD8X96FdnksZLvRRlEiCR {
     color: #d851ed;
-}/* 设置页面左侧文字选中效果 */
+}/* Set the text selection effect on the left side of the page */
 
-/*家庭成員背景*/
+/*Family member background*/
 ._2LyGIHuQ8SFKb5T262YUvg {
     display: flex;
     flex-direction: column;
