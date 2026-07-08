@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Nightmare";
+    src: url("../../../../font/Nightmare.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    font-family: "Nightmare", sans-serif !important;
+}
