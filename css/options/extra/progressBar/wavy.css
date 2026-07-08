@@ -1,0 +1,53 @@
+/* MD3 Expressive - Wavy progress indicator */
+/* https://m3.material.io/components/progress-indicators/guidelines (wavy shape) */
+/* The track (remaining/unfilled portion) stays untouched -- only the active
+   filled indicator is replaced with a squiggle, no straight line beneath it. */
+
+._1EubJAK9z7JtdGks5M2f8t .wEM7Q5RG3mzmns1x1Zjux:last-child,
+._1EubJAK9z7JtdGks5M2f8t .wEM7Q5RG3mzmns1x1Zjux:last-child *,
+._2Dptk9e7W_k4zYB5wfRTcp .Qeg4qAFIMLaYd3mHOBndS,
+._2Dptk9e7W_k4zYB5wfRTcp .Qeg4qAFIMLaYd3mHOBndS *,
+._1-nHjRywUoX7Mpyc6JOPaQ ._2_0JonK7eKEvh8IoOvq0-B,
+._1-nHjRywUoX7Mpyc6JOPaQ ._2_0JonK7eKEvh8IoOvq0-B * {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    box-shadow: unset !important;
+    border: none !important;
+}
+
+._1EubJAK9z7JtdGks5M2f8t .wEM7Q5RG3mzmns1x1Zjux:last-child,
+._2Dptk9e7W_k4zYB5wfRTcp .Qeg4qAFIMLaYd3mHOBndS,
+._1-nHjRywUoX7Mpyc6JOPaQ ._2_0JonK7eKEvh8IoOvq0-B {
+    position: relative;
+    overflow: visible !important;
+}
+
+._1EubJAK9z7JtdGks5M2f8t .wEM7Q5RG3mzmns1x1Zjux:last-child::before,
+._2Dptk9e7W_k4zYB5wfRTcp .Qeg4qAFIMLaYd3mHOBndS::before,
+._1-nHjRywUoX7Mpyc6JOPaQ ._2_0JonK7eKEvh8IoOvq0-B::before {
+    content: "";
+    position: absolute;
+    inset: -4px 0;
+    background: var(--md-sys-color-primary) !important;
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 16'%3E%3Cpath d='M-2 8 C1 1 6 1 9 8 C12 15 17 15 20 8 C23 1 28 1 31 8' stroke='white' stroke-width='6' stroke-linecap='round' fill='none'/%3E%3C/svg%3E");
+    mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 16'%3E%3Cpath d='M-2 8 C1 1 6 1 9 8 C12 15 17 15 20 8 C23 1 28 1 31 8' stroke='white' stroke-width='6' stroke-linecap='round' fill='none'/%3E%3C/svg%3E");
+    -webkit-mask-repeat: repeat-x;
+    mask-repeat: repeat-x;
+    -webkit-mask-size: 20px 100%;
+    mask-size: 20px 100%;
+    animation: succubus-wavy-progress 0.5s linear infinite;
+    pointer-events: none;
+    z-index: 1;
+}
+
+@keyframes succubus-wavy-progress {
+    from {
+        -webkit-mask-position: 0 0;
+        mask-position: 0 0;
+    }
+    to {
+        -webkit-mask-position: -20px 0;
+        mask-position: -20px 0;
+    }
+}

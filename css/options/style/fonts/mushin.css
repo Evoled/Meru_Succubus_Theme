@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Mushin";
+    src: url("../../../../font/mushin.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+* {
+    font-family: "Mushin", sans-serif !important;
+}
