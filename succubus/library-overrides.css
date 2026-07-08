@@ -10,9 +10,9 @@
 }/* Add font */
 
 ._3mz8wQ6Q44B8P7pzPP4Iyw{
-	background-image: url("../imgs/shopBG.jpg");
-	background-position: center center;
-	background-size: cover;
+	background-image: url("../imgs/shopBG.jpg") !important;
+	background-position: center center !important;
+	background-size: cover !important;
 } /*Overall background, fifth layer from the body*/
 
 ._2TKEazUUS3TlniZfpc8OOe {
@@ -33,21 +33,21 @@
 }/*Library, download page background*/
 
 ._3x1HklzyDs4TEjACrRO2tB {
-    background: url(../imgs/listBG.gif) no-repeat;
-    background-size: cover;
-    background-position: center;
+    background: url(../imgs/listBG.gif) no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
 }/*Library game list background*/
 
 ._2gSXCB6PbOlMxslr8hm6dm{
-    background: url(../imgs/libraryBG.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
+    background: url(../imgs/libraryBG.jpg) no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
 }/*Library right background*/ 
 
 ._2Dd4T78PcCTUVgOtDGFY5j, ._2g5K_hJWc7jVo81zuejhk2 {
-    background: url(../imgs/downloadBG.png) no-repeat;
-    background-size: cover;
-    background-position: center;
+    background: url(../imgs/downloadBG.png) no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
     position: relative;
 }/*"Download" and "Collection" pages share background*/
 

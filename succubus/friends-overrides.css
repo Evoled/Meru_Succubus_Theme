@@ -2,8 +2,9 @@
  * @description This file styles friends list, chat, and other related areas. 
  */
 
- html.client_chat_frame body, html.web_chat_frame body {
-	background-image: url("../imgs/friends.png");
+ html.client_chat_frame body, html.web_chat_frame body,
+ html.ModalDialogPopup.client_chat_frame body, html.ModalDialogPopup.web_chat_frame body {
+	background-image: url("../imgs/friends.png") !important;
 	background-position: center top;
 	background-size: cover;
 }
