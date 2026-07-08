@@ -1,0 +1,7 @@
+/* Meru Succubus Steam Deck Game Mode Test */
+
+.gamepadui {
+    background-image: url("../../imgs/meru-cute.gif") !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
