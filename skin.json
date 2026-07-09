@@ -10,7 +10,7 @@
         "Anime",
         "Succubus"
     ],
-    "version": "2.2.0",
+    "version": "1.0.0",
     "header_image": "imgs/header_image.jpg",
     "splash_image": "imgs/splash_image.png",
     "github": {
@@ -283,9 +283,17 @@
         },
         "Toolbar Icon": {
             "description": "Choose icon in toolbar.",
-            "default": "Material Design",
+            "default": "Succubus",
             "tab": "Toolbar",
             "values": {
+                "Succubus": {
+                    "TargetCss": {
+                        "affects": [
+                            ".*"
+                        ],
+                        "src": "css/options/toolbar/toolbarIcon/succubus.css"
+                    }
+                },
                 "Steam": {
                     "TargetCss": {
                         "affects": [
@@ -1402,6 +1410,21 @@
                             ".*"
                         ],
                         "src": "experimental.css"
+                    }
+                }
+            }
+        },
+        "Progress Bar Style": {
+            "tab": "Extra",
+            "default": "Flat",
+            "values": {
+                "Flat": {},
+                "Wavy": {
+                    "TargetJs": {
+                        "affects": [
+                            ".*"
+                        ],
+                        "src": "js/options/extra/wavyProgress.js"
                     }
                 }
             }
